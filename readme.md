@@ -10,7 +10,7 @@ NVIDIA Jetson.
 
 ---
 
-## 📌 Use Case
+##  Use Case
 
 **Smart / Industrial Environment – Safety & Operational Analytics**
 
@@ -28,7 +28,7 @@ Key capabilities demonstrated:
 
 ---
 
-## 🧠 AI Capabilities Demonstrated
+##  AI Capabilities Demonstrated
 
 - **Object Detection:** YOLOv8 (lightweight variant)
 - **Semantic Segmentation:** DeepLabV3
@@ -60,7 +60,7 @@ site-specific industrial data via **NVIDIA Transfer Learning Toolkit (TLT)**.
 
 ---
 
-## 🏗️ System Design & Architecture
+##  System Design & Architecture
 
 The system follows an **edge-first architecture**:
 - All latency-sensitive tasks (inference, tracking, analytics) run on the edge
@@ -96,4 +96,5 @@ Install dependencies:
 pip install -r requirements.txt
 
 jupyter notebook cv_poc_notebook.ipynb
+
 
